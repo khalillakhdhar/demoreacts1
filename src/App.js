@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import First from './First';
+import Second from './Second';
 class App extends React.Component {
 render() {
 return (
@@ -8,23 +10,6 @@ return (
 </div>
 );
 } }
-class First extends React.Component {
-  render() {
-  return (
-  <div>
-  <h1>le site:</h1>
-  </div>
-  );
-  }
-}  
-class Second extends React.Component {
-  render() {
-  return (
-  <div>
-  <h2>www.monsite.com</h2>
-  <p>This websites contains the great CS tutorial.</p>
-  </div>
-  );
-  }
-}
+ 
+
 export default App;
